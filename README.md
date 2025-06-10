@@ -41,11 +41,3 @@ Result: SPAM
 ```
 
 This output shows the log probabilities for spam and ham, with the classifier correctly identifying the test email as spam.
-
-## Project Structure
-The project is organized into the following files:
-
-- **`main.c`**: Contains the main function and orchestrates the training and testing phases.
-- **`train.c`**: Implements the logic for training the Naive Bayes model using the provided spam and ham data.
-- **`test.c`**: Implements the logic for testing new emails and classifying them as spam or ham.
-- **`utils.c`**: Contains utility functions used across the project, such as string processing and probability calculations.
