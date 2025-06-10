@@ -128,10 +128,10 @@ void testcase(const char *testfile)
 
 int main()
 {
-    train("D:\\MyFolder\\c\\sem2pracques\\projectfiles\\spam.txt", 1);
-    train("D:\\MyFolder\\c\\sem2pracques\\projectfiles\\ham.txt", 0);
+    train("spam.txt", 1);
+    train("ham.txt", 0);
 
-    testcase("D:\\MyFolder\\c\\sem2pracques\\projectfiles\\test.txt");
+    testcase("test.txt");
 
     return 0;
 }
